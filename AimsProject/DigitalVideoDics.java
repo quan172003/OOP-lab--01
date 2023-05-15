@@ -27,6 +27,8 @@ public class DigitalVideoDics {
         return cost;
     }
 
+    
+
     public DigitalVideoDics(String title) {
         this.title = title;
     }
