@@ -1,4 +1,4 @@
-package AimsProject.media;
+package hust.soict.dsai.aims.media;
 
 public abstract class Media {
     

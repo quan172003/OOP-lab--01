@@ -1,9 +1,11 @@
-package AimsProject;
+package test;
+
+import AimsProject.media.DigitalVideoDics;
 
 public class CartTest {
     public static void main(String [] args){
 
-        card card = new Card();
+        card card = new card();
 
         DigitalVideoDics dvd1 = new DigitalVideoDics("the lion king", "animation", "Roger Allay", 87, 19.95f);
         card.addDigitalVideoDics(dvd1);

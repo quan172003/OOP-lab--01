@@ -1,6 +1,6 @@
-package AimsProject;
+package hust.soict.dsai.aims.media;
 
-public class DigitalVideoDics {
+public class DigitalVideoDics extends Media{
     private String title;
     private String category;
     private String director;

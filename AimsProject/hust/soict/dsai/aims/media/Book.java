@@ -1,9 +1,10 @@
-package AimsProject.media;
+package hust.soict.dsai.aims.media;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class Book{
+
+public class Book extends Media{
     
     private int id;
     private String title;

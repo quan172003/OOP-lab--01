@@ -1,4 +1,6 @@
-package AimsProject;
+package test;
+
+import AimsProject.media.DigitalVideoDics;
 
 public class TestPassingParameter {
     public static void main(String args[])
@@ -26,5 +28,9 @@ public class TestPassingParameter {
         dvd = DigitalVideoDics(title);
         dvd = new DigitalVideoDics(oldtitle);
 
+    }
+
+    private static DigitalVideoDics DigitalVideoDics(String title) {
+        return null;
     }
 }

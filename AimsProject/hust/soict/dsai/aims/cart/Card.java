@@ -1,6 +1,8 @@
-package AimsProject;
+package hust.soict.dsai.aims.cart;
 
-public class card {
+import hust.soict.dsai.aims.media.DigitalVideoDics;
+
+public class Card {
     public static final int MAX_NUMBERS_ORDERED = 20;
     private DigitalVideoDics[] itemsOrdered = new DigitalVideoDics[MAX_NUMBERS_ORDERED];
     public int qtyOrdered = 0;
