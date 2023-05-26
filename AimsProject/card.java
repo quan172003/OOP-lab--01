@@ -76,4 +76,12 @@ public class card {
         }
         return total;
     }
+
+    public void print()
+    {
+        for (int i = 0; i < qtyOrdered; i++)
+        {
+            System.out.println(itemsOrdered[i]);
+        } 
+    }
 }
