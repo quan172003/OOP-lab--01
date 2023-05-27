@@ -1,4 +1,4 @@
-package hust.soict.dsai.aims.media;
+package hust.soict.dsai.aims.media1;
 
 public class Disc extends Media{
 
@@ -15,12 +15,13 @@ public class Disc extends Media{
         return this.length;
     }
 
-    public void Disc(int id, String title, String category, float cost, String director, float length)
-    {
+    public Disc(int id, String title, String category, float cost, String director, float length) {
         super(id, title, category, cost);
         this.director = director;
         this.length = length;
     }
+
+
 
 
 

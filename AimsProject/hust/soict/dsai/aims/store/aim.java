@@ -1,9 +1,10 @@
 package hust.soict.dsai.aims.store;
 
 import hust.soict.dsai.aims.cart.Card;
-import hust.soict.dsai.aims.media.DigitalVideoDics;
+import hust.soict.dsai.aims.media1.DigitalVideoDics;
 
 public class aim {
+ 
     public static void main(String[] args) {
         // Create a new cart
         Card user_01_card = new Card();
