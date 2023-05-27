@@ -40,14 +40,15 @@ public class Card {
 
     // -----------------------------------------------------------------------
 
-    public float totalCost() {
-        float total = 0f;
-        
-        for (Media a : itemsOrdered)
-        {
-            total = total + a.getCost();
+        public float totalCost() {
+            float total = 0f;
+            
+            for (Media a : itemsOrdered)
+            {
+                total = total + a.getCost();
+            }
+            return total;
         }
-        return total;
-    }
+
 
 }
